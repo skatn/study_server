@@ -1,6 +1,6 @@
 <?php
 require_once('lib/print.php');
-require('view/top.php');
+require_once('view/top.php');
 ?>
     <a href="create.php">create</a>
     <?php if(isset($_GET['id'])){ ?>
@@ -12,4 +12,4 @@ require('view/top.php');
     <?php } ?>
     <h2><?php print_title(); ?></h2>
     <?php print_description(); ?>
-<?php require('view/bottom.php') ?>
+<?php require_once('view/bottom.php') ?>

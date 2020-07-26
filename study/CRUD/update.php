@@ -1,6 +1,6 @@
 <?php
 require_once('lib/print.php');
-require('view/top.php');
+require_once('view/top.php');
 ?>
     <a href="create.php">create</a>
     <?php if(isset($_GET['id'])){ ?>
@@ -13,4 +13,4 @@ require('view/top.php');
       <p><textarea name="description" placeholder="description"> <?php print_description() ?></textarea></p>
       <p><input type="submit"></p>
     </form>
-<?php require('view/bottom.php') ?>
+<?php require_once('view/bottom.php') ?>

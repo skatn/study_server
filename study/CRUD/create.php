@@ -1,6 +1,6 @@
 <?php
 require_once('lib/print.php');
-require('view/top.php');
+require_once('view/top.php');
 ?>
     <a href="create.php">create</a>
     <form action="create_process.php" method="post">
@@ -9,4 +9,4 @@ require('view/top.php');
       <p><input type="submit"></p>
     </form>
     <p></p>
-<?php require('view/bottom.php'); ?>
+<?php require_once('view/bottom.php'); ?>
